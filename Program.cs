@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -16,6 +16,10 @@ namespace CursoCSharp {
                 {"Exercício 2 - Fundamentos ",ExercicioDois.Executar},
                 {"Exercício 3 - Fundamentos ",ExercicioTres.Executar},
                 {"Operadores Relacionais - Fundamentos ",OperadoresRelacionais.Executar},
+                {"Operadores Atribuição - Fundamentos ",OperadoresAtribuicao.Executar},
+
+                //outra pasta
+                 {"Estrutura If - Fundamentos ",EstruturaIf.Executar},
             });
 
             central.SelecionarEExecutar();

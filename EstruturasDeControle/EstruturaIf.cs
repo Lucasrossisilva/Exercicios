@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos {
-    class ExercicioTres {
+namespace CursoCSharp.EstruturasDeControle {
+    class EstruturaIf {
+
         public static void Executar() {
 
             Console.WriteLine("Digite a primeira nota:");
@@ -17,11 +18,15 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine("Digite a terceira nota:");
             int nota3 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($" A média do aluno é {(nota1 + nota2 + nota3) / 2}");
+            int media = (nota1 + nota2 + nota3) / 3;
 
-            
-
+            if (media >= 7) {
+                Console.WriteLine("O Aluno está aprovado!");
+            }
+            if (media < 7) {
+                Console.WriteLine("O Aluno está Reprovado");
+            }
         }
-
     }
 }
+
