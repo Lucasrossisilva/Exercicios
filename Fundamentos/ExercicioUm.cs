@@ -9,7 +9,7 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
 
             double nota1, nota2, nota3;
-            double media;
+            
 
             Console.WriteLine("Digite a primeira nota:");
            nota1 = int.Parse(Console.ReadLine());

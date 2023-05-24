@@ -14,11 +14,12 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine("Digite a segunda nota:");
             double nota2 = double.Parse(Console.ReadLine());
 
-            //double nota1 = nota1 * 3.5;
+            double nnota1 = (nota1 * 3.5)/11;
 
-            //double nota2 = nota2 * 7.5;
+            double nnota2 = (nota2 * 3.5) /11;
 
-
+            Console.WriteLine($"Números que você digitou! \n 1º numero: {nota1} \n 2º numero: {nota2}");
+            Console.WriteLine($"Números que você registrou ! \n 1º numero: {nota1.ToString("#,#")} \n 2º numero:{nnota2.ToString("#,#")}");
 
         }
 
