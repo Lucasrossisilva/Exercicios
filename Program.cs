@@ -4,6 +4,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Atividades;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 
 namespace CursoCSharp {
@@ -32,11 +33,6 @@ namespace CursoCSharp {
                  {"Exercício While e For - Estruturas de Controle",EstruturaWhileEFor.Executar},
                   {"Exercício For e Each  - Estruturas de Controle",EstruturaForEach.Executar},
 
-                 //outra pasta
-                 {"Exercício Soma no final - Atividades",ExercicioSoma.Executar},
-                 {"Tabuada - Atividades",Tabuada.Executar},
-                 {"Exibir Saída - Atividades",ExibirSaida.Executar},
-
                 //pasta classes
                 {"Membros - Classes e Métodos",Membros.Executar},
                 {"Construtores - Classes e Métodos",Construtores.Executar},
@@ -44,6 +40,20 @@ namespace CursoCSharp {
                 {"Exercício Metodos com Retorno - Classes e Métodos",ExerciciosMetodosComRetorno.Executar},
                 {"Exercicio Celsiu e fahrenheit - Classes e Método",ExercicioConverterCF.Executar},
                 {"Metodos Estaticos - Classes e Métodos",MetodosEstaticos.Executar},
+                {"Param - Classes e Métodos",Param.Executar},
+                {"GetSet - Classes e Métodos",GetSet.Executar},
+                {"GetSet Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar},
+                
+                //pasta atividades
+                 {"Exercício Soma no final - Atividades",ExercicioSoma.Executar},
+                 {"Tabuada - Atividades",Tabuada.Executar},
+                 {"Exibir Saída - Atividades",ExibirSaida.Executar},
+                 {"Exercicio Atributos - Atividades",ExercicioAtributo.Executar},
+                 {"Exercicio Propriedades - Atividades",ExercicioPropriedades.Executar},
+                 {"Exercicio Animais  - Atividades",ExercicioAnimais.Executar},
+
+                 //pasta Colecoes
+                 {"Queue - Coleções",Queue.Executar},
 
 
 
